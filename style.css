@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 3em 0;
+  height: 100%;
+  min-height: 100%;
+  width: 100%;
+  color: #dcdde1;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 150%;
+  background: #355C7D;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #C06C84, #6C5B7B, #355C7D);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, left bottom, from(#C06C84), color-stop(#6C5B7B), to(#355C7D));
+  background: -webkit-linear-gradient(top, #C06C84, #6C5B7B, #355C7D);
+  background: -o-linear-gradient(top, #C06C84, #6C5B7B, #355C7D);
+  background: linear-gradient(to bottom, #C06C84, #6C5B7B, #355C7D);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.title {
+  font-weight: 200;
+}
+
+.quote {
+  font-size: 18px;
+  margin-bottom: .3em;
+}
+
+.quote-container {
+  background-color: #40739e;
+  border-radius: 5px;
+  margin-bottom: 1em;
+  padding: 1.5em 2em;
+}
+
+button {
+  background-color: #273c75 !important;
+  border: none !important;
+  margin: .5em 1em;
+}
+
+button:hover {
+  background-color: #3c5db5 !important;
+}
+
+.tweet-button {
+  background-color: #0097e6 !important;
+}
+
+.tweet-button:hover {
+  background-color: #4dc2ff !important;
+}
