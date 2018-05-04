@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:200,400");
+
 * {
   margin: 0;
   padding: 0;
@@ -17,17 +19,21 @@ body {
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: 150%;
-  background: #355C7D;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #C06C84, #6C5B7B, #355C7D);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: -webkit-gradient(linear, left top, left bottom, from(#C06C84), color-stop(#6C5B7B), to(#355C7D));
-  background: -webkit-linear-gradient(top, #C06C84, #6C5B7B, #355C7D);
-  background: -o-linear-gradient(top, #C06C84, #6C5B7B, #355C7D);
-  background: linear-gradient(to bottom, #C06C84, #6C5B7B, #355C7D);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #355c7d;
+  background: -webkit-linear-gradient(to bottom, #c06c84, #6c5b7b, #355c7d);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#c06c84),
+    color-stop(#6c5b7b),
+    to(#355c7d)
+  );
+  background: -webkit-linear-gradient(top, #c06c84, #6c5b7b, #355c7d);
+  background: -o-linear-gradient(top, #c06c84, #6c5b7b, #355c7d);
+  background: linear-gradient(to bottom, #c06c84, #6c5b7b, #355c7d);
 }
 
 .title {
@@ -36,7 +42,7 @@ body {
 
 .quote {
   font-size: 18px;
-  margin-bottom: .3em;
+  margin-bottom: 0.3em;
 }
 
 .quote-container {
@@ -46,10 +52,14 @@ body {
   padding: 1.5em 2em;
 }
 
+.quote-author {
+  font-size: .9em;
+}
+
 button {
   background-color: #273c75 !important;
   border: none !important;
-  margin: .5em 1em;
+  margin: 0.5em 1em;
 }
 
 button:hover {
@@ -62,4 +72,31 @@ button:hover {
 
 .tweet-button:hover {
   background-color: #4dc2ff !important;
+}
+
+button:focus .fas.fa-spinner {
+  -webkit-animation: spin 1s ease-in-out;
+          animation: spin 1s ease-in-out;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg) scale(1);
+            transform: rotate(0deg) scale(1);
+  }
+  100% {
+    -webkit-transform: rotate(360deg) scale(1);
+            transform: rotate(360deg) scale(1);
+  }
+}
+
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg) scale(1);
+            transform: rotate(0deg) scale(1);
+  }
+  100% {
+    -webkit-transform: rotate(360deg) scale(1);
+            transform: rotate(360deg) scale(1);
+  }
 }

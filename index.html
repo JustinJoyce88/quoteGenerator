@@ -8,28 +8,31 @@
   <title>Random Quote Generator</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
     crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="style.min.css">
 </head>
 
 <body>
   <div class="container container-fluid">
     <div class="row">
-      <h2 class="mx-auto title">Random Quote Generator</h2>
+      <h2 class="mx-auto title">Random Quote Generator </h2>
     </div>
     <div class="row">
       <div class="col-xs-3 mx-auto">
-        <button class="btn btn-primary" id="generate-random-quote">Generate!</button>
-        <a class="tweet" href="https://twitter.com/intent/tweet/?text=My favorite things in life don’t cost any money. It’s really clear that the most precious resource we all have is time." data-size="large" target=_blank>
-          <button class="btn btn-primary tweet-button">Tweet quote!</button>
+        <button class="btn btn-primary" id="generate-random-quote"> Generate <i class="fas fa-spinner"></i></button>
+        <a class="tweet" href="https://twitter.com/intent/tweet/?text=My favorite things in life don’t cost any money. It’s really clear that the most precious resource we all have is time."
+          data-size="large" target=_blank>
+          <button class="btn btn-primary tweet-button">Tweet
+            <i class="fab fa-twitter"></i>
+          </button>
         </a>
       </div>
     </div>
     <div class="container w-50 quote-container">
       <div class="row">
         <div class="mx-auto quote">
-          <em>"My favorite things in life don’t cost any money. It’s really clear that the most precious resource we all have
-            is time."</em>
+          <em>“Everybody in this country should learn to program a computer, because it teaches you how to think”</em>
         </div>
       </div>
       <div class="row">
@@ -37,13 +40,13 @@
       </div>
     </div>
   </div>
-  
+
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
     crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
-  <script src="index.js"></script>
+  <script src="index.min.js"></script>
 </body>
 
 </html>
