@@ -23,6 +23,6 @@ $(() => {
     var me = this;
     this.style.webkitAnimation = "none";
     setTimeout(() => (me.style.webkitAnimation = ""), 10);
-    setTimeout(() => me.blur(), 1000);
+    setTimeout(() => me.blur(), 498);
   });
 });
