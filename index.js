@@ -1,4 +1,7 @@
+"use strict";
+
 $(() => {
+  let tweet = "";
   $("#generate-random-quote").on("click", function(e) {
     $.ajax({
       url: "https://talaikis.com/api/quotes/random/",
@@ -20,7 +23,7 @@ $(() => {
 
   $("#generate-random-quote").click(function() {
     // restart animation
-    var me = this;
+    const me = this;
     this.style.webkitAnimation = "none";
     setTimeout(() => (me.style.webkitAnimation = ""), 10);
     setTimeout(() => me.blur(), 498);

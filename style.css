@@ -11,7 +11,7 @@ html,
 body {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  padding: 3em 0;
+  padding: 2em 0;
   height: 100%;
   min-height: 100%;
   width: 100%;
@@ -54,6 +54,8 @@ body {
 
 .quote-author {
   font-size: .9em;
+  margin: 0;
+  padding: 0;
 }
 
 button {
@@ -99,4 +101,9 @@ button:focus .fas.fa-spinner {
     -webkit-transform: rotate(360deg) scale(1);
             transform: rotate(360deg) scale(1);
   }
+}
+
+.sig {
+  text-align: center;
+  padding: .5em;
 }
